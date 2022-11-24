@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #1e1e1e;
+  background-color: #e1e1e1;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  margin-bottom: 0.5em;
+}
+h1 {
+  font-size: 42px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+
+/* ---> UTILITIES */
+
+/* Colors */
+.color-green {
+  color: #729f34;
+}
+.bg-color-green {
+  background-color: #729f34;
+}
+
+.color-blue {
+  color: #002137;
+}
+.bg-color-blue {
+  background-color: #002137;
+}
+
+.color-grey {
+  color: #a2a2a2;
+}
+.bg-color-grey {
+  background-color: #a2a2a2;
+}
+
+
+
+/* Own styles, these are only for styling THIS page */
+
+.pattern-content {
+  max-width: 800px;
+  padding: 16px;
+  margin: 16px auto;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.pattern-section {
+  margin-bottom: 64px;
+}
+
+.pattern-color {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+
+.pattern-color:before {
+  content: attr(data-color);
+  background-color: rgba(0,0,0,0.2);
+  display: block;
+  color: white;
+  text-align: center;
+}
+
+.pattern-title {
+  border-bottom: 1px solid #e1e1e1;
+  opacity: 0.6;
+}
