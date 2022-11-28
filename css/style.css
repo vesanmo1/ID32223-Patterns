@@ -4,13 +4,18 @@
 }
 
 @font-face {
-  font-family: 'Poppins';
+  font-family: 'Poppins-ExtraLight';
   src: url('../fonts/Poppins/Poppins-ExtraLight.ttf');
+}
+
+@font-face {
+  font-family: 'Poppins-Medium';
+  src: url('../fonts/Poppins/Poppins-Medium.ttf');
 }
 
 body {
   margin: 0;
-  font-family: 'Poppins';
+  font-family: 'Poppins-ExtraLight';
   color: #E6E8EB;
   background-color: #011B34;
   font-weight: 400;
@@ -60,36 +65,80 @@ h6,
 button,
 .btn {
   display: inline-block;
-  padding: 0 16px;
-  background-color: #729f34;
+  padding: 10px 30px;
+  background: linear-gradient(144deg,#FF28B9,#AF40FF, #5B42F3 50%,#00DADB) padding-box,
+              linear-gradient(144deg,#FF28B9,#AF40FF, #5B42F3 50%,#00DADB) border-box;
+  border-radius: 5px;
+  border: 2px solid transparent;
   text-decoration: none;
-  color: white;
-  border: 1px solid #a2a2a2;
-  line-height: 2;
+  color: #E6E8EB;
+  cursor: pointer;
+  font-family: 'Poppins-Medium';
   text-transform: uppercase;
-  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 600;
   font-size: 1rem;
   letter-spacing: 2px;
   cursor: pointer;
 }
 
+
 button:hover,
 .btn:hover {
-  background-color: #8fc741;
+  display: inline-block;
+  padding: 10px 30px;
+  background: linear-gradient(#011B34, #011B34) padding-box,
+              linear-gradient(144deg,#FF28B9,#AF40FF, #5B42F3 50%,#00DADB) border-box;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  text-decoration: none;
+  color: #E6E8EB;
+  cursor: pointer;
+  font-family: 'Poppins-Medium';
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  cursor: pointer;
 }
 
 .btn--secondary {
-  background-color: #dadada;
-  color: #1e1e1e;
+  display: inline-block;
+  padding: 10px 30px;
+  background: linear-gradient(#99A4AE, #99A4AE) padding-box,
+              linear-gradient(#99A4AE, #99A4AE) border-box;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  text-decoration: none;
+  color: #011B34;
+  cursor: pointer;
+  font-family: 'Poppins-Medium';
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  cursor: pointer;
 }
+
 .btn--secondary:hover {
-  background-color: white;
+  display: inline-block;
+  padding: 10px 30px;
+  background: linear-gradient(#011B34, #011B34) padding-box,
+              linear-gradient(#99A4AE, #99A4AE) border-box;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  text-decoration: none;
+  color: #99A4AE;
+  cursor: pointer;
+  font-family: 'Poppins-Medium';
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  cursor: pointer;
 }
 
 
 code {
-  background-color: #e1e1e1;
   font-weight: 400;
   padding: 0 8px;
   font-size: 0.8em;
