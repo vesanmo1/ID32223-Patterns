@@ -1,6 +1,16 @@
+@font-face {
+  font-family: 'Kollektif';
+  src: url('../fonts/Kollektif/Kollektif.ttf');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins/Poppins-ExtraLight.ttf');
+}
+
 body {
   margin: 0;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Poppins';
   color: #E6E8EB;
   background-color: #011B34;
   font-weight: 400;
@@ -163,6 +173,9 @@ code {
 .pattern-title {
   border-bottom: 1px solid #99A4AE;
   color: #99A4AE;
+  font-family: 'Kollektif';
+  font-size: 85px;
+  
 }
 
 [data-header]:before {
