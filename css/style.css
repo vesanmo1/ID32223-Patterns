@@ -1,8 +1,8 @@
 body {
   margin: 0;
   font-family: 'Source Sans Pro', sans-serif;
-  color: #002137;
-  background-color: #e1e1e1;
+  color: #E6E8EB;
+  background-color: #011B34;
   font-weight: 400;
 }
 
@@ -105,6 +105,7 @@ code {
 }
 .bg-color-blue-100 {
   background-color: #011B34;
+  border: 0.25px solid #E6E8EB;
 }
 
 .color-blue-70 {
@@ -136,7 +137,7 @@ code {
   max-width: 800px;
   padding: 16px;
   margin: 16px auto;
-  background-color: white;
+  background-color: #011B34;
   border-radius: 8px;
 }
 
@@ -160,8 +161,8 @@ code {
 }
 
 .pattern-title {
-  border-bottom: 1px solid #4D5F71;
-  color: #4D5F71;
+  border-bottom: 1px solid #99A4AE;
+  color: #99A4AE;
 }
 
 [data-header]:before {
