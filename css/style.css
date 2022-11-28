@@ -88,17 +88,6 @@ button:hover,
   padding: 10px 30px;
   background: linear-gradient(#011B34, #011B34) padding-box,
               linear-gradient(144deg,#FF28B9,#AF40FF, #5B42F3 50%,#00DADB) border-box;
-  border-radius: 5px;
-  border: 2px solid transparent;
-  text-decoration: none;
-  color: #E6E8EB;
-  cursor: pointer;
-  font-family: 'Poppins-Medium';
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: 1rem;
-  letter-spacing: 2px;
-  cursor: pointer;
 }
 
 .btn--secondary {
@@ -106,17 +95,7 @@ button:hover,
   padding: 10px 30px;
   background: linear-gradient(#99A4AE, #99A4AE) padding-box,
               linear-gradient(#99A4AE, #99A4AE) border-box;
-  border-radius: 5px;
-  border: 2px solid transparent;
-  text-decoration: none;
   color: #011B34;
-  cursor: pointer;
-  font-family: 'Poppins-Medium';
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: 1rem;
-  letter-spacing: 2px;
-  cursor: pointer;
 }
 
 .btn--secondary:hover {
@@ -124,17 +103,7 @@ button:hover,
   padding: 10px 30px;
   background: linear-gradient(#011B34, #011B34) padding-box,
               linear-gradient(#99A4AE, #99A4AE) border-box;
-  border-radius: 5px;
-  border: 2px solid transparent;
-  text-decoration: none;
   color: #99A4AE;
-  cursor: pointer;
-  font-family: 'Poppins-Medium';
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: 1rem;
-  letter-spacing: 2px;
-  cursor: pointer;
 }
 
 
