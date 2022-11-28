@@ -27,12 +27,14 @@ h6 {
 }
 h1,
 .h1 {
-  font-size: 42px;
+  font-family: 'Kollektif';
+  font-size: 85px;
 }
 
 h2,
 .h2 {
-  font-size: 32px;
+  font-size: 40px;
+  text-transform: uppercase;
 }
 
 h3,
@@ -172,10 +174,7 @@ code {
 
 .pattern-title {
   border-bottom: 1px solid #99A4AE;
-  color: #99A4AE;
-  font-family: 'Kollektif';
-  font-size: 85px;
-  
+  color: #99A4AE;    
 }
 
 [data-header]:before {
